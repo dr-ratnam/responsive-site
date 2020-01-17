@@ -418,15 +418,37 @@ figure
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+/* General styles */
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+/* Header */
+header {
+
+}
+
+header .content-wrapper {
+  width: ;
+}
+
+header nav {
+  width: ;
+}
+
+header nav ul {
+
+}
+
+.header-divider {
+  display: none;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+/* Desktop styles */
 }
 
 /* ==========================================================================
