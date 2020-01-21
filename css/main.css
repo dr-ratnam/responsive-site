@@ -109,16 +109,14 @@ body {
   font-size: 1em;
 }
 
-ul, ol {
+ul, 
+ol {
   list-style-type: none;
 }
 
 a {
   color: #e2e3ed;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.125em;
-  font-weight: 700;
 }
 
 h2 {
@@ -148,7 +146,7 @@ img {
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -162,7 +160,8 @@ address {
 
 /* BASE HEADER - FOOTER STYLES */
 
-header, footer {
+header, 
+footer {
   background-color: #202322;
   display: flex;
   justify-content: center;
@@ -182,6 +181,14 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background-color: #3a3a3a;
   width: 100%;
@@ -195,7 +202,9 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -204,12 +213,9 @@ header nav ul {
   width: 100%;
 }
  
-
 header nav ul li {
   font-size: 1.125em;
 }
-
-header nav ul li a
 
 /* FOOTER */
 
@@ -218,28 +224,18 @@ footer {
   text-align: center;
 }
 
+footer p {
+  margin: 0;
+}
+
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
 }
 
-.footer-content
-
 footer .contact {
   margin-bottom: 50px;
 }
-
-.contact h4
-
-.contact p {
-  margin: 0;
-}
-
-.contact a
-
-.social 
-
-.social h4
 
 footer .social-icons {
   display: flex;
@@ -247,7 +243,7 @@ footer .social-icons {
   align-items: center;
 }
 
-.social-icons a {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,11 +254,6 @@ footer .copyright {
   text-align: center;
 }
 
-footer p {
-  margin: 0;
-}
-
-
 /* MAIN BODY */
 
 /* Mobile - Homepage*/
@@ -270,6 +261,10 @@ footer p {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -280,6 +275,7 @@ footer p {
   font-family: "Poppins," Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.25em;
+  color: #e2e3ed;
 }
 
 /* Aside */
@@ -322,6 +318,9 @@ input[type=button] {
 
 /* Features */
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -378,14 +377,6 @@ input[type=button] {
   flex-flow: row wrap;
   background-color: #527158;
 }
-
-.section
-
-.mission-content
-
-.mission-content h2
-
-.mission-content p
 
 /* MAP */
 
