@@ -438,6 +438,7 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  padding-bottom: 40px;
 }
 
 .faq .content-wrapper {
@@ -445,16 +446,16 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 50px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   line-height: 1em;
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .faq-content h4 {
@@ -617,7 +618,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 35%;
+    width: 100%;
     margin: 0;
   }
 
@@ -651,6 +652,10 @@ input[type=button] {
   .reviews article figure,
   .reviews article div {
     width: 50%;
+  }
+
+  .reviews article div {
+    margin-left: 3%;
   }
 
   .reviews h3 {
@@ -694,6 +699,10 @@ input[type=button] {
   }
 
   /* About Page */
+  .mission .content-wrapper {
+    margin-top: 50px;
+  }
+
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -702,7 +711,7 @@ input[type=button] {
   }
 
   .mission-content p {
-    width: 45%;
+    /* width: 45%; */
   }
 
   .map figure {
@@ -782,7 +791,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 100%;
   }
 
   .form-description p {
